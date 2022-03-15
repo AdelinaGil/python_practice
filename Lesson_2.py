@@ -136,3 +136,4 @@ while True:
         specifications[f] = int(specifications_) if (f == 'цена' or f == 'количество') else specifications_
         analytics[f].append(specifications[f])
     goods.append((num, specifications))
+print("Задание 6 выполнено")
